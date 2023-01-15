@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>numberToWordConverter</PackageId>
+    <Title>Number To Word Converter</Title>
+    <Version>1.0.0</Version>
+    <Authors>Henry Ugochukwu (Menez)</Authors>
+    <Company>Genesys Tech Hub</Company>
+    <Product>numberToWordConverter</Product>
+    <Description>This package helps you convert a number from figures to their respective word values</Description>
+  </PropertyGroup>
+
+</Project>
