@@ -8,12 +8,12 @@ namespace numberToWordConverter
         {
             if (number == 0)
                 return "zero";
-
+          
             if (number < 0)
                 return "minus " + NumberToWords(Math.Abs(number));
 
             string words = "";
-
+             
             if ((number / 1000000) > 0)
             {
                 words += NumberToWords(number / 1000000) + " million ";
